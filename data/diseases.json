@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Herniated Disc",
+    "associated_symptom": "Severe Back Pain",
+    "required_specialty": "Orthopedist"
+  },
+  {
+    "id": "Gastritis",
+    "associated_symptom": "Stomach Ache",
+    "required_specialty": "Gastroenterologist"
+  },
+  {
+    "id": "Chronic Migraine",
+    "associated_symptom": "Migraine",
+    "required_specialty": "Neurologist"
+  },
+  {
+    "id": "Eczema",
+    "associated_symptom": "Skin Rash",
+    "required_specialty": "Dermatologist"
+  },
+  {
+    "id": "Angina",
+    "associated_symptom": "Chest Pain",
+    "required_specialty": "Cardiologist"
+  },
+  {
+    "id": "Cataract",
+    "associated_symptom": "Blurred Vision",
+    "required_specialty": "Ophthalmologist"
+  },
+  {
+    "id": "Generalized Anxiety Disorder",
+    "associated_symptom": "Severe Anxiety",
+    "required_specialty": "Psychiatrist"
+  },
+  {
+    "id": "Tonsillitis",
+    "associated_symptom": "Persistent Sore Throat",
+    "required_specialty": "ENT Specialist"
+  },
+  {
+    "id": "Viral Infection",
+    "associated_symptom": "High Fever (Child)",
+    "required_specialty": "Pediatrician"
+  },
+  {
+    "id": "Asthma",
+    "associated_symptom": "Shortness of Breath",
+    "required_specialty": "Pulmonologist"
+  },
+  {
+    "id": "Rheumatoid Arthritis",
+    "associated_symptom": "Chronic Joint Pain",
+    "required_specialty": "Orthopedist"
+  },
+  {
+    "id": "GERD",
+    "associated_symptom": "Acid Reflux",
+    "required_specialty": "Gastroenterologist"
+  },
+  {
+    "id": "Vertigo",
+    "associated_symptom": "Frequent Dizziness",
+    "required_specialty": "Neurologist"
+  },
+  {
+    "id": "Cystic Acne",
+    "associated_symptom": "Severe Acne",
+    "required_specialty": "Dermatologist"
+  },
+  {
+    "id": "Arrhythmia",
+    "associated_symptom": "Heart Palpitations",
+    "required_specialty": "Cardiologist"
+  },
+  {
+    "id": "Otitis Media",
+    "associated_symptom": "Earache",
+    "required_specialty": "ENT Specialist"
+  },
+  {
+    "id": "Major Depressive Disorder",
+    "associated_symptom": "Depressive Mood",
+    "required_specialty": "Psychiatrist"
+  },
+  {
+    "id": "Bronchitis",
+    "associated_symptom": "Dry Cough",
+    "required_specialty": "Pulmonologist"
+  },
+  {
+    "id": "Meniscus Tear",
+    "associated_symptom": "Knee Injury",
+    "required_specialty": "Orthopedist"
+  },
+  {
+    "id": "Insomnia",
+    "associated_symptom": "Sleep Insomnia",
+    "required_specialty": "Psychiatrist"
+  }
+]

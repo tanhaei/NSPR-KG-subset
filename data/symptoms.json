@@ -1,0 +1,22 @@
+[
+  {"id": "Severe Back Pain", "type": "Symptom"},
+  {"id": "Stomach Ache", "type": "Symptom"},
+  {"id": "Migraine", "type": "Symptom"},
+  {"id": "Skin Rash", "type": "Symptom"},
+  {"id": "Chest Pain", "type": "Symptom"},
+  {"id": "Blurred Vision", "type": "Symptom"},
+  {"id": "Severe Anxiety", "type": "Symptom"},
+  {"id": "Persistent Sore Throat", "type": "Symptom"},
+  {"id": "High Fever (Child)", "type": "Symptom"},
+  {"id": "Shortness of Breath", "type": "Symptom"},
+  {"id": "Chronic Joint Pain", "type": "Symptom"},
+  {"id": "Acid Reflux", "type": "Symptom"},
+  {"id": "Frequent Dizziness", "type": "Symptom"},
+  {"id": "Severe Acne", "type": "Symptom"},
+  {"id": "Heart Palpitations", "type": "Symptom"},
+  {"id": "Earache", "type": "Symptom"},
+  {"id": "Depressive Mood", "type": "Symptom"},
+  {"id": "Dry Cough", "type": "Symptom"},
+  {"id": "Knee Injury", "type": "Symptom"},
+  {"id": "Sleep Insomnia", "type": "Symptom"}
+]

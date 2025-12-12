@@ -1,0 +1,49 @@
+[
+  {"name": "Dr. Smith", "specialty": "Orthopedist", "fee": 120, "location": [10, 10], "insurance": ["Premium", "Basic"]},
+  {"name": "Dr. Jones", "specialty": "Orthopedist", "fee": 40, "location": [12, 12], "insurance": ["Basic"]},
+  {"name": "Dr. Miller", "specialty": "Orthopedist", "fee": 200, "location": [5, 5], "insurance": ["Premium"]},
+  {"name": "Dr. Rezaei", "specialty": "Orthopedist", "fee": 85, "location": [20, 22], "insurance": ["Gold", "Basic"]},
+  {"name": "Dr. Kiani", "specialty": "Orthopedist", "fee": 150, "location": [15, 10], "insurance": ["None"]},
+  
+  {"name": "Dr. Amini", "specialty": "Gastroenterologist", "fee": 80, "location": [5, 5], "insurance": ["Premium"]},
+  {"name": "Dr. Parsa", "specialty": "Gastroenterologist", "fee": 130, "location": [14, 16], "insurance": ["Gold"]},
+  {"name": "Dr. Sohrabi", "specialty": "Gastroenterologist", "fee": 50, "location": [25, 25], "insurance": ["Basic", "Gold"]},
+  {"name": "Dr. Webb", "specialty": "Gastroenterologist", "fee": 220, "location": [2, 3], "insurance": ["Premium"]},
+
+  {"name": "Dr. Rad", "specialty": "Neurologist", "fee": 150, "location": [20, 20], "insurance": ["Premium"]},
+  {"name": "Dr. Bines", "specialty": "Neurologist", "fee": 90, "location": [8, 8], "insurance": ["Basic", "Gold"]},
+  {"name": "Dr. Teymouri", "specialty": "Neurologist", "fee": 250, "location": [1, 1], "insurance": ["Premium"]},
+  {"name": "Dr. Strange", "specialty": "Neurologist", "fee": 300, "location": [10, 15], "insurance": ["None"]},
+
+  {"name": "Dr. Karimi", "specialty": "Dermatologist", "fee": 50, "location": [2, 2], "insurance": ["Basic", "Premium"]},
+  {"name": "Dr. House", "specialty": "Dermatologist", "fee": 180, "location": [12, 5], "insurance": ["Gold"]},
+  {"name": "Dr. Zare", "specialty": "Dermatologist", "fee": 75, "location": [18, 18], "insurance": ["Basic"]},
+  
+  {"name": "Dr. Nouri", "specialty": "Cardiologist", "fee": 200, "location": [15, 15], "insurance": ["Premium"]},
+  {"name": "Dr. Heart", "specialty": "Cardiologist", "fee": 110, "location": [6, 6], "insurance": ["Gold", "Basic"]},
+  {"name": "Dr. Poursina", "specialty": "Cardiologist", "fee": 280, "location": [30, 30], "insurance": ["Premium"]},
+  {"name": "Dr. Vahid", "specialty": "Cardiologist", "fee": 95, "location": [10, 25], "insurance": ["Basic"]},
+
+  {"name": "Dr. Vision", "specialty": "Ophthalmologist", "fee": 130, "location": [4, 4], "insurance": ["Gold"]},
+  {"name": "Dr. Nazari", "specialty": "Ophthalmologist", "fee": 60, "location": [22, 22], "insurance": ["Basic"]},
+  {"name": "Dr. Einollahi", "specialty": "Ophthalmologist", "fee": 190, "location": [11, 11], "insurance": ["Premium"]},
+
+  {"name": "Dr. Freud", "specialty": "Psychiatrist", "fee": 250, "location": [13, 13], "insurance": ["None"]},
+  {"name": "Dr. Momeni", "specialty": "Psychiatrist", "fee": 70, "location": [7, 7], "insurance": ["Basic"]},
+  {"name": "Dr. Rostami", "specialty": "Psychiatrist", "fee": 140, "location": [19, 19], "insurance": ["Gold", "Premium"]},
+  {"name": "Dr. Jung", "specialty": "Psychiatrist", "fee": 210, "location": [3, 9], "insurance": ["Premium"]},
+  {"name": "Dr. Akbari", "specialty": "Psychiatrist", "fee": 100, "location": [28, 5], "insurance": ["Basic", "Gold"]},
+
+  {"name": "Dr. Gosh", "specialty": "ENT Specialist", "fee": 90, "location": [16, 16], "insurance": ["Basic", "Gold"]},
+  {"name": "Dr. Samadi", "specialty": "ENT Specialist", "fee": 160, "location": [5, 20], "insurance": ["Premium"]},
+  {"name": "Dr. Earhart", "specialty": "ENT Specialist", "fee": 110, "location": [9, 2], "insurance": ["Gold"]},
+
+  {"name": "Dr. Kidman", "specialty": "Pediatrician", "fee": 65, "location": [14, 14], "insurance": ["Basic", "Gold", "Premium"]},
+  {"name": "Dr. Bahrami", "specialty": "Pediatrician", "fee": 125, "location": [8, 25], "insurance": ["Premium"]},
+  {"name": "Dr. Childers", "specialty": "Pediatrician", "fee": 45, "location": [26, 26], "insurance": ["Basic"]},
+
+  {"name": "Dr. Breath", "specialty": "Pulmonologist", "fee": 175, "location": [17, 17], "insurance": ["Premium"]},
+  {"name": "Dr. Havaei", "specialty": "Pulmonologist", "fee": 85, "location": [10, 5], "insurance": ["Basic", "Gold"]},
+  {"name": "Dr. Lungs", "specialty": "Pulmonologist", "fee": 210, "location": [1, 29], "insurance": ["None"]},
+  {"name": "Dr. Azad", "specialty": "Pulmonologist", "fee": 100, "location": [13, 22], "insurance": ["Basic"]}
+]
