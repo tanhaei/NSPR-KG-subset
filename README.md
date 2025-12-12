@@ -13,6 +13,76 @@ The NSPR framework addresses the challenge of matching patients to doctors by br
 * **Constraint-Aware Scoring:** Optimization function $\\Psi$ that balances semantic relevance with financial and geographical feasibility.  
 * **Explainability:** Generates natural language explanations for every recommendation.
 
+### **Architecture**
+```mermaid
+---
+config:
+  look: neo
+  layout: dagre
+---
+flowchart TB
+ subgraph UserInput["User Inputs"]
+        Query@{ label: "Patient Query (q)<br>(e.g., 'Severe stomach pain')" }
+        Constraints[("Socio-Economic Constraints (Cu)<br>(Budget, Location, Insurance)")]
+ end
+ subgraph Module2["Semantic Entity Linking Module"]
+        BERT[["BERT Model<br>(Fine-tuned on Medical Corpora)"]]
+        StartNode("Start Node: Symptoms Es")
+ end
+ subgraph Module1["Multi-Constraint Knowledge Graph (MC-KG)"]
+    direction TB
+        KG_Nodes[("Graph Entities:<br>Symptom, Disease, Doctor,<br>Specialty, Location, Price, Insurance")]
+        KG_Edges["Relations:<br>(TreatedBy, LocatedIn, AcceptsInsurance)"]
+ end
+ subgraph Semantic["Semantic Relevance"]
+        TransE[("TransE Embedding<br>(Semantic Energy)")]
+        Eq1["E_sem = -||h + r - t||"]
+ end
+ subgraph Constraint["Constraint Satisfaction"]
+        Funcs[("Satisfaction Functions (Ψ)<br>Soft-thresholding &amp; Masks")]
+        Eq2["ψ_cost (Budget)<br>ψ_geo (Location)<br>ψ_ins (Insurance)"]
+ end
+ subgraph Module3["Multi-Constraint Path Reasoning Module"]
+        PathFinder{"Path Finding"}
+        Semantic
+        Constraint
+        Score[("Final Score Aggregation<br>(Optimization Objective)")]
+ end
+    Query --> BERT
+    BERT --> StartNode
+    StartNode -.-> KG_Nodes
+    KG_Nodes --> PathFinder
+    PathFinder -- Candidate Paths --> TransE
+    TransE --> Eq1
+    Constraints --> Funcs
+    Funcs --> Eq2
+    Eq1 --> Score
+    Eq2 --> Score
+    Score --> FinalList["Ranked Doctor List"]
+    FinalList --> Explanation["Natural Language Explanation"]
+
+    Query@{ shape: cylinder}
+     Query:::input
+     Constraints:::input
+     BERT:::model
+     StartNode:::kg
+     KG_Nodes:::kg
+     KG_Edges:::kg
+     TransE:::math
+     Eq1:::math
+     Funcs:::math
+     Eq2:::math
+     PathFinder:::model
+     Score:::math
+     FinalList:::output
+     Explanation:::output
+     classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000
+     classDef model fill:#fff9c4,stroke:#fbc02d,stroke-width:2px,color:#000
+     classDef kg fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+     classDef math fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+     classDef output fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#000
+```
+
 ## **Repository Structure**
 ```
 ├── data/  
