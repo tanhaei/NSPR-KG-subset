@@ -1,4 +1,4 @@
-# **Neuro-Symbolic Path Reasoning (NSPR) for Explainable Doctor Recommendation**
+# **Neuro-Symbolic Path Reasoning (NSPR) for Explainable Physician Recommendation**
 
 This repository contains the implementation of the **Neuro-Symbolic Path Reasoning (NSPR)** framework, as proposed in the paper *"Neuro-Symbolic Path Reasoning for Explainable Doctor Recommendation: Integrating Medical Knowledge with Socio-Economic Constraints"*.
 
